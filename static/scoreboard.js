@@ -40,7 +40,7 @@ function increase_score(id) {
       contentType: "application/json; charset=utf-8",
       data: JSON.stringify(team_id),
       success: function (result) {
-        resolve(result); //returns the scoreboard object
+        resolve(result); //returns the scoreboard object.
       },
       error: function (error) {
         reject(error);
